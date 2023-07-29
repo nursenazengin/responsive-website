@@ -1,0 +1,473 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background: url("dark_tint.png"),url("bokeh_car_lights_bg.jpg");
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    align-self: flex-start;
+}
+
+header h1{
+    margin-left: 30px;
+    top: 30px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    float: left;
+    font-size: 1.5em;
+    position: absolute;
+}
+header nav.menu ul{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+header nav.menu ul li{
+    display: block;
+    padding: 30px;
+    float: left;
+}
+
+header nav.menu ul li a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+header nav.menu ul li a:hover{
+    color: red;
+    transition: color 0.2s ease-in-out;
+}
+
+
+.yazi h2{
+    margin: 40px 100px;
+    color: white;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+
+.yazi p {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    top: 0px;
+    margin-bottom: 50px;
+}
+
+.yazi a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    padding: 15px 30px;
+    color: white;
+    background-color: rgb(54, 168, 213);
+    border-radius: 20px;
+}
+
+.yazi a:hover{
+    color: skyblue;
+    transition: backgorund-color 0.2s ease-in-out;
+}
+
+
+.bolum1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(234, 234, 234); 
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bolum1 h1{
+    margin-bottom: 0.5em;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+}
+
+.bolum1 h1+p{
+    margin-bottom: 0.5em;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    color: #484848;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bolum1 .kutu{
+    text-align: center;
+    padding: 20px 0px;
+    margin-right: 20px;
+    flex-basis: 300px;
+	flex-shrink: 0;
+	flex-grow: 1;
+	background: #fff;
+    align-self: flex-start;
+}
+
+.bolum1 .kutu:nth-last-child(1) {
+	margin-right: 0;
+}
+.bolum1 .container .kutu i{
+    color: white;
+    padding: 40px ;
+    border-radius: 100%;
+    font-size: 30px;
+}
+
+.bolum1 .container .kutu i.birinci{
+    background-color: rgb(95, 195, 199);
+}
+
+.bolum1 .container .kutu i.ikinci{
+    background-color: rgb(149, 197, 30);
+}
+.bolum1 .container .kutu i.ucuncu{
+    background-color: rgb(197, 40, 69);
+}
+.bolum1 .container .kutu h3{
+    text-align: center;
+    color: #484848;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    padding: 20px 0;
+}
+
+.bolum1 .container .kutu p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #6d6969;
+    padding: 0 30px 20px 30px;
+    line-height: 1.5em;
+}
+.bolum2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #D1D1D1;
+	box-sizing: border-box;
+    padding-top: 80px;
+	display: block;
+}
+
+.bolum2 h1{
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #484848;
+}
+
+.bolum2 h1+p{
+    margin-bottom: 70px;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    color: #6d6969;
+}
+
+.bolum2 .kisiler{
+    border-top: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.bolum2 .kisi{
+    flex-basis: 220px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: left;
+    margin: 50px 10px;
+}
+
+.bolum2 .kisi img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+.bolum2 .kisi img+h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 900px;
+    margin-top: 25px;
+}
+.bolum2 .kisi h3+p{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.bolum2 article {
+	margin: 50px auto;
+	width: 70%;
+}
+
+.bolum2 article p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px; 
+    margin-top: 50px;
+}
+
+
+.bolum2 a{
+    background: #3cadd4;
+	border-radius: 30px;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	padding: 1em 2em;
+	text-align: center;
+	margin-top: 70px;
+	text-decoration: none;
+    color:#fff;
+}
+
+.bolum2 a:hover {
+	background: #61c1e1;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.bolum3{
+    width: 100%;
+    padding: 70px 0 10px;
+    text-align: center;
+    background-color: #3cadd4;
+    display: block;
+}
+
+.bolum3 h1{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+}
+
+.bolum3 p{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+}
+
+.bolum3 .container .form{
+    width: 600px;
+    margin: 70px auto;
+}
+
+.bolum3 .container .form input[type = text] {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: #444;
+	font-size: 1em;
+}
+
+.bolum3 .container .form input[type = email] {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: #444;
+	font-size: 1em;
+}
+
+.bolum3 .container .form textarea{
+    width: 430px;
+    height: 150px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #444;
+	font-size: 1em;
+    margin-top: 20px;
+}
+.bolum3 .container .form input[type = submit] {
+    width: 230px;
+    height: 50px;
+    margin-top: 70px;
+    background: #333131;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.bolum3 .container .form input[type = submit]:hover{
+    background: gray;
+    transition: background-color 0.2s ease-in-out;
+}
+
+footer{
+    width: 100%;
+	padding: 30px 0;
+	background: #383b43;
+}
+
+footer .container{
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+footer .footerkutu{
+    width: 250px;
+    margin-bottom: 20px;
+}
+footer .footerkutu h3{
+    padding-bottom:20px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+
+footer .footerkutu ul a{
+    color: rgb(201, 201, 201);
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 2.5em;
+}
+footer .footerkutu ul a:hover{
+    text-decoration: underline;
+}
+
+.sosyal{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer .lisans{
+    width: 100%;
+    margin: 20px auto;
+}
+footer .lisans p{
+    color: rgb(160, 159, 159);
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+}
+
+@media screen and (max-width:980px) {
+    .banner{
+        height: 60vh;
+    }
+    .yazi h2{
+        font-size: 2em;
+    }
+    .yazi p{
+        font-size: 1em;
+    }
+    .yazi a{
+        font-size: 0.8em;
+        padding: 10px 25px;
+        border-radius: 15px;
+    }
+
+    .bolum1 h1{
+        font-size: 2em;
+    }
+    .bolum1 p{
+        font-size: 1em;
+    }
+    .bolum1 .kutu{
+        flex-basis: 100%;
+    }
+
+    .bolum2 h1{
+        font-size: 2em;
+    }
+    .bolum2 p{
+        font-size: 1em;
+    }
+    .bolum2 .kisi{
+        flex-basis: 100%;
+    }
+
+    footer .footerkutu{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .bolum2 .kisi {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .bolum2 .kisi img {
+        text-align: center;
+        float: none;
+    }
+    footer .footerkutu {
+        flex-basis: 40%;
+        margin: 10px 20px;
+    }
+    footer .footerkutu {
+        flex-basis: 100%;
+        margin: 10px 20px;
+        text-align: center;
+    }
+    footer .lisans p {
+        float: none;
+        margin: 20px auto;
+    }
+    .sosyal {
+        text-align: center;
+    }
+    .bolum3 .container .form {
+        width: 100%;
+        margin: 70px auto;
+    }
+    .bolum3 .container .form input[type=text] {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    .bolum3 .container .form input[type=email] {
+        width: 80%;
+        margin: 5px;
+    }
+    .bolum3 .container .form textarea {
+        width: 80%;
+        height: 150px;
+    }
+    .bolum3 .container .form input[type=submit] {
+        font-size: 1.1em;
+        padding: 15px 50px;
+    }
+    }
